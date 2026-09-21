@@ -1,0 +1,46 @@
+{
+  "device": "cuda",
+  "tts_backend": "qwen3_tts",
+  "tts_fallback_backend": "xtts_v2",
+  "vc_backend": "seed_vc",
+  "asr_backend": "faster_whisper",
+  "asr_device": "cpu",
+  "asr_model": "small",
+  "model_paths": {
+    "qwen3_tts": "models/qwen3-tts",
+    "xtts_v2": "models/xtts_v2",
+    "seed_vc": "models/seed-vc",
+    "faster_whisper": "models/faster-whisper"
+  },
+  "output_dir": "output",
+  "cache_dir": "cache",
+  "voices_dir": "voices",
+  "logs_dir": "logs",
+  "default_language": "ru",
+  "sample_rate": 24000,
+  "streaming": true,
+  "precision": "bfloat16",
+  "api_enabled": true,
+  "api_host": "127.0.0.1",
+  "api_port": 8722,
+  "audio_input_device": null,
+  "audio_output_device": null,
+  "quality_presets": {
+    "fast": {
+      "tts_model": "0.6B",
+      "vc_diffusion_steps": 10,
+      "precision": "float16"
+    },
+    "balanced": {
+      "tts_model": "1.7B",
+      "vc_diffusion_steps": 25,
+      "precision": "bfloat16"
+    },
+    "quality": {
+      "tts_model": "1.7B",
+      "vc_diffusion_steps": 50,
+      "precision": "bfloat16"
+    }
+  },
+  "active_preset": "balanced"
+}
