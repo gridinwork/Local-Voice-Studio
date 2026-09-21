@@ -1,6 +1,6 @@
 # Local Voice Studio — Offline Voice Cloning & Voice Conversion
 
-![Local Voice Studio interface](IMG/interface.jpg)
+![Local Voice Studio interface](IMG/interface.png)
 
 **Local Voice Studio** is a Windows desktop application for fully local voice cloning, text-to-speech, voice conversion and experimental live voice processing. Reference recordings, generated audio, cached voice prompts and logs stay on the local computer; the Internet is only required when models or Python packages need to be downloaded during setup.
 
