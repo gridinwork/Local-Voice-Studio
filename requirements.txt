@@ -1,0 +1,25 @@
+# PyTorch is installed separately by install.bat (CUDA-specific index URL).
+# torch
+# torchaudio
+
+numpy
+soundfile
+librosa
+imageio-ffmpeg
+noisereduce
+sounddevice
+
+qwen-tts
+transformers
+accelerate
+
+faster-whisper
+
+PySide6
+pyqtgraph
+
+fastapi
+uvicorn[standard]
+pydantic
+
+pydub
