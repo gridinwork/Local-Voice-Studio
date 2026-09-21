@@ -1,0 +1,28 @@
+# Virtual environments — never commit, recreated by install.bat
+.venv/
+models/seed-vc/.venv-vc/
+
+# Downloaded/cloned models — huge, fetched by install.bat / INSTALL.md, not source
+models/*
+!models/.gitkeep
+
+# Personal data: voice profiles, generated audio, caches, logs
+voices/*
+!voices/.gitkeep
+output/*
+!output/.gitkeep
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
